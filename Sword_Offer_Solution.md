@@ -1,3 +1,21 @@
+# 剑指Offer
+
+ladder刷题——剑指Offer：https://www.lintcode.com/ladder/6/
+
+[剑指Offer题集-牛客网](https://www.nowcoder.com/ta/coding-interviews)
+
+
+
+解题
+
+[剑指Offer题解C++](https://github.com/gatieme/CodingInterviews) 
+
+剑指OfferJava版本
+
+[实现1](https://github.com/ryderchan/point-to-offer-edition2)
+
+[实现2](https://github.com/apachecn/awesome-algorithm/tree/master/docs/%E5%89%91%E6%8C%87offer/Java)
+
 
 
 # 链表
