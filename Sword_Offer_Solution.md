@@ -1,6 +1,6 @@
 # 剑指Offer
 
-ladder刷题——剑指Offer：https://www.lintcode.com/ladder/6/
+LintCode ladder刷题——剑指Offer：https://www.lintcode.com/ladder/6/
 
 [剑指Offer题集-牛客网](https://www.nowcoder.com/ta/coding-interviews)
 

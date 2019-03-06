@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00c79a6-2cbb-4025-9a6b-976354b79592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordOffer/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordOffer/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordOffer/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordOffer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordOffer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordOffer/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordOffer/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordOffer/SwordOffer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordOffer/src/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordOffer/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordOffer/src/ReplaceBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sword_Offer_Solution.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Sword_Offer_Solution.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dust-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dust-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chap2/ReplaceBlank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chap2/ReplaceBlank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/chap2/TestChap2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/chap2/TestChap2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/chap2/TestChap2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="80">
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,93 +34,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-506">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="240" selection-start-line="240" selection-end-line="240" />
-              <folding>
-                <element signature="e#2111#2112#0" expanded="true" />
-                <element signature="e#2155#2156#0" expanded="true" />
-                <element signature="e#5951#6086#0" expanded="true" />
-                <element signature="e#6085#6086#0" expanded="true" />
-                <element signature="e#6484#6648#0" expanded="true" />
-                <element signature="e#6647#6648#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="102" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/Suite.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="e#2535#2536#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="-213">
               <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="57">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -136,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -157,9 +86,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/Log4j2.tld" />
         <option value="$PROJECT_DIR$/src/main/resources/Log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java" />
-        <option value="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap2/NumOfBinaryNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" />
       </list>
     </option>
   </component>
@@ -171,8 +102,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="175" />
-    <option name="y" value="64" />
+    <option name="x" value="215" />
+    <option name="y" value="26" />
     <option name="width" value="1265" />
     <option name="height" value="687" />
   </component>
@@ -261,7 +192,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551795936078" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551889030040" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -279,7 +210,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestChap2.testReplaceBlank">
+  <component name="RunManager" selected="JUnit.TestChap2.testHammingWeight">
+    <configuration name="TestChap2.testCountOnes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sword-offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chap2" />
+      <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
+      <option name="METHOD_NAME" value="testCountOnes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestChap2.testFizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sword-offer" />
       <extension name="coverage">
@@ -291,6 +238,22 @@
       <option name="PACKAGE_NAME" value="chap2" />
       <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
       <option name="METHOD_NAME" value="testFizzBuzz" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestChap2.testHammingWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sword-offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chap2" />
+      <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
+      <option name="METHOD_NAME" value="testHammingWeight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -314,6 +277,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestChap2.testHammingWeight" />
+        <item itemvalue="JUnit.TestChap2.testCountOnes" />
         <item itemvalue="JUnit.TestChap2.testReplaceBlank" />
         <item itemvalue="JUnit.TestChap2.testFizzBuzz" />
       </list>
@@ -329,47 +294,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551765686639</updated>
-      <workItem from="1551765689902" duration="7751000" />
+      <workItem from="1551765689902" duration="12987000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestChap2_testReplaceBlank - 2019.03.05 at 21h 53m 20s.xml">
-      <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testReplaceBlank - 2019.03.05 at 21h 54m 53s.xml">
-      <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testReplaceBlank - 2019.03.05 at 21h 55m 04s.xml">
-      <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testReplaceBlank - 2019.03.05 at 21h 59m 48s.xml">
-      <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testReplaceBlank - 2019.03.05 at 21h 59m 51s.xml">
-      <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testReplaceBlank - 2019.03.05 at 22h 01m 21s.xml">
-      <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testFizzBuzz - 2019.03.05 at 22h 01m 51s.xml">
-      <configuration name="TestChap2.testFizzBuzz" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testReplaceBlank - 2019.03.05 at 22h 01m 59s.xml">
-      <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestChap2_testReplaceBlank - 2019.03.05 at 22h 02m 25s.xml">
       <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestChap2_testReplaceBlank - 2019.03.05 at 22h 02m 55s.xml">
       <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestChap2_testCountOnes - 2019.03.05 at 23h 15m 23s.xml">
+      <configuration name="TestChap2.testCountOnes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testCountOnes - 2019.03.05 at 23h 16m 49s.xml">
+      <configuration name="TestChap2.testCountOnes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testCountOnes - 2019.03.05 at 23h 17m 12s.xml">
+      <configuration name="TestChap2.testCountOnes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 09m 01s.xml">
+      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 09m 19s.xml">
+      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 12m 20s.xml">
+      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 12m 53s.xml">
+      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 16m 57s.xml">
+      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7751000" />
+    <option name="totallyTimeSpent" value="12987000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="175" y="64" width="1265" height="687" extended-state="0" />
+    <frame x="215" y="26" width="1265" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -377,19 +342,19 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24938676" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24110672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32982457" />
+      <window_info anchor="bottom" id="Messages" weight="0.3282572" />
       <window_info anchor="bottom" id="Tail" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3754386" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36209813" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.50930625" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -407,6 +372,40 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>4&amp;3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>3&amp;2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>5&amp;(4)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>5&amp;(5)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>num&amp;(num-1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>num&amp;num-1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j2.tld">
       <provider selected="true" editor-type-id="text-editor">
@@ -419,13 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -489,20 +481,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/chap2/TestChap2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="80">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="120">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
         </state>
       </provider>
     </entry>

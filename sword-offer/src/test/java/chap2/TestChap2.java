@@ -29,4 +29,20 @@ public class TestChap2 {
         ReplaceBlank.replaceBlank(replaceString, oldString.length);
         log.info(String.valueOf(replaceString));
     }
+
+    @Test
+    public void testCountOnes() {
+        int count = HammingWeight.countOnes(5);
+        log.info(count);
+    }
+
+    @Test
+    public void testHammingWeight() {
+        int num = 32;
+
+        log.info(HammingWeight.countOnes(num) + ":"
+                + HammingWeight.countOnesSecond(num)
+                + ":" + HammingWeight.countOnesThird(num)) ;
+    }
+
 }
