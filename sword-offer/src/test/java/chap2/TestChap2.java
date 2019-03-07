@@ -41,8 +41,25 @@ public class TestChap2 {
         int num = 32;
 
         log.info(HammingWeight.countOnes(num) + ":"
-                + HammingWeight.countOnesSecond(num)
-                + ":" + HammingWeight.countOnesThird(num)) ;
+                + HammingWeight.countOnesSecond(num)) ;
+    }
+
+    @Test
+    public void testReverseListNode (){
+        ListNode head = new  ListNode(13);
+        ListNode sec = new ListNode(4);
+        ListNode thr = new ListNode(8);
+        ListNode four = new ListNode(22);
+        head.next = sec; sec.next = thr; thr.next = four;
+
+        log.info(head.toString());
+        // 翻转
+        ListNode reverse = ListNode.reverse(head);
+        log.info(reverse.toString());
+
+        // 再次翻转
+        ListNode reverseAgain = ListNode.reverseIteration(reverse);
+        log.info(reverseAgain.toString());
     }
 
 }

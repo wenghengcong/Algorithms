@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00c79a6-2cbb-4025-9a6b-976354b79592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sword_Offer_Solution.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Sword_Offer_Solution.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/dust-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dust-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap2/ReplaceBlank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chap2/ReplaceBlank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/chap2/TestChap2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/chap2/TestChap2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/chap2/TestChap2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+            <state relative-caret-position="108">
+              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -89,8 +95,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/NumOfBinaryNumber.java" />
-        <option value="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" />
       </list>
     </option>
   </component>
@@ -102,8 +109,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="215" />
-    <option name="y" value="26" />
+    <option name="x" value="66" />
+    <option name="y" value="30" />
     <option name="width" value="1265" />
     <option name="height" value="687" />
   </component>
@@ -192,7 +199,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551889030040" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551927631829" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -210,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestChap2.testHammingWeight">
+  <component name="RunManager" selected="JUnit.TestChap2.testReverseListNode">
     <configuration name="TestChap2.testCountOnes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sword-offer" />
       <extension name="coverage">
@@ -275,10 +283,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestChap2.testReverseListNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sword-offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chap2" />
+      <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
+      <option name="METHOD_NAME" value="testReverseListNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestChap2.testHammingWeight" />
         <item itemvalue="JUnit.TestChap2.testCountOnes" />
+        <item itemvalue="JUnit.TestChap2.testReverseListNode" />
+        <item itemvalue="JUnit.TestChap2.testHammingWeight" />
         <item itemvalue="JUnit.TestChap2.testReplaceBlank" />
         <item itemvalue="JUnit.TestChap2.testFizzBuzz" />
       </list>
@@ -294,32 +319,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551765686639</updated>
-      <workItem from="1551765689902" duration="12987000" />
+      <workItem from="1551765689902" duration="16700000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestChap2_testReplaceBlank - 2019.03.05 at 22h 02m 25s.xml">
-      <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testReplaceBlank - 2019.03.05 at 22h 02m 55s.xml">
-      <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testCountOnes - 2019.03.05 at 23h 15m 23s.xml">
-      <configuration name="TestChap2.testCountOnes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testCountOnes - 2019.03.05 at 23h 16m 49s.xml">
-      <configuration name="TestChap2.testCountOnes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testCountOnes - 2019.03.05 at 23h 17m 12s.xml">
-      <configuration name="TestChap2.testCountOnes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 09m 01s.xml">
-      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 09m 19s.xml">
-      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 12m 20s.xml">
       <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
     </history-entry>
@@ -329,12 +333,33 @@
     <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 16m 57s.xml">
       <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestChap2_testReverseListNode - 2019.03.07 at 10h 08m 33s.xml">
+      <configuration name="TestChap2.testReverseListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testReverseListNode - 2019.03.07 at 10h 09m 04s.xml">
+      <configuration name="TestChap2.testReverseListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testReverseListNode - 2019.03.07 at 10h 11m 18s.xml">
+      <configuration name="TestChap2.testReverseListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testReverseListNode - 2019.03.07 at 10h 11m 21s.xml">
+      <configuration name="TestChap2.testReverseListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testReverseListNode - 2019.03.07 at 10h 11m 56s.xml">
+      <configuration name="TestChap2.testReverseListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testReverseListNode - 2019.03.07 at 10h 58m 32s.xml">
+      <configuration name="TestChap2.testReverseListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testReverseListNode - 2019.03.07 at 10h 58m 42s.xml">
+      <configuration name="TestChap2.testReverseListNode" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12987000" />
+    <option name="totallyTimeSpent" value="16700000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="215" y="26" width="1265" height="687" extended-state="0" />
+    <frame x="66" y="30" width="1265" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -342,7 +367,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24110672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24110672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -354,7 +379,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36209813" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.50930625" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48054147" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -495,20 +520,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/chap2/TestChap2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        <state relative-caret-position="108">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+        <state relative-caret-position="163">
+          <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
         </state>
       </provider>
     </entry>

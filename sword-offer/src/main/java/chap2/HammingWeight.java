@@ -60,5 +60,5 @@ public class HammingWeight {
          */
         return count;
     }
-    
+
 }
