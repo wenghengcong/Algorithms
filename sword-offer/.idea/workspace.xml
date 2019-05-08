@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00c79a6-2cbb-4025-9a6b-976354b79592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" afterDir="false" />
+    <list default="true" id="e00c79a6-2cbb-4025-9a6b-976354b79592" name="Default Changelist" comment="更新结构">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sword-offer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/dust-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dust-server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../算法题练习/算法题练习.xcodeproj/project.xcworkspace/xcuserdata/wenghengcong.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../算法题练习/算法题练习.xcodeproj/project.xcworkspace/xcuserdata/wenghengcong.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,13 +22,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/chap2/TestChap2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+            <state relative-caret-position="646">
+              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,38 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-213">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+            <state relative-caret-position="202">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -83,7 +76,13 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wenghengcong &lt;wenghengcong@icloud.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,13 +90,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Log4j2.tld" />
         <option value="$PROJECT_DIR$/src/main/resources/Log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/NumOfBinaryNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java" />
       </list>
     </option>
   </component>
@@ -109,10 +108,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="30" />
-    <option name="width" value="1265" />
-    <option name="height" value="687" />
+    <option name="x" value="54" />
+    <option name="y" value="23" />
+    <option name="width" value="1244" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -122,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,17 +193,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551927631829" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551934336785" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -218,72 +222,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestChap2.testReverseListNode">
-    <configuration name="TestChap2.testCountOnes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sword-offer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chap2" />
-      <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
-      <option name="METHOD_NAME" value="testCountOnes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChap2.testFizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sword-offer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chap2" />
-      <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
-      <option name="METHOD_NAME" value="testFizzBuzz" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChap2.testHammingWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sword-offer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chap2" />
-      <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
-      <option name="METHOD_NAME" value="testHammingWeight" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChap2.testReplaceBlank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sword-offer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chap2" />
-      <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
-      <option name="METHOD_NAME" value="testReplaceBlank" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChap2.testReverseListNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="TestChap2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sword-offer" />
       <extension name="coverage">
         <pattern>
@@ -294,18 +234,15 @@
       <option name="PACKAGE_NAME" value="chap2" />
       <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
       <option name="METHOD_NAME" value="testReverseListNode" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestChap2.testCountOnes" />
-        <item itemvalue="JUnit.TestChap2.testReverseListNode" />
-        <item itemvalue="JUnit.TestChap2.testHammingWeight" />
-        <item itemvalue="JUnit.TestChap2.testReplaceBlank" />
-        <item itemvalue="JUnit.TestChap2.testFizzBuzz" />
+        <item itemvalue="JUnit.TestChap2" />
       </list>
     </recent_temporary>
   </component>
@@ -319,20 +256,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551765686639</updated>
-      <workItem from="1551765689902" duration="16700000" />
+      <workItem from="1551765689902" duration="17655000" />
+      <workItem from="1552269634163" duration="723000" />
+      <workItem from="1552314877293" duration="250000" />
+      <workItem from="1554085697452" duration="223000" />
+      <workItem from="1557232222380" duration="61000" />
+      <workItem from="1557232298913" duration="958000" />
+      <workItem from="1557233301140" duration="884000" />
+      <workItem from="1557234206996" duration="621000" />
+      <workItem from="1557271456141" duration="584000" />
+      <workItem from="1557323145094" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 12m 20s.xml">
-      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 12m 53s.xml">
-      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testHammingWeight - 2019.03.07 at 00h 16m 57s.xml">
-      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestChap2_testReverseListNode - 2019.03.07 at 10h 08m 33s.xml">
       <configuration name="TestChap2.testReverseListNode" configurationId="JUnit" />
     </history-entry>
@@ -354,48 +291,83 @@
     <history-entry file="TestChap2_testReverseListNode - 2019.03.07 at 10h 58m 42s.xml">
       <configuration name="TestChap2.testReverseListNode" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestChap2_testReverseListNode - 2019.03.07 at 11h 00m 14s.xml">
+      <configuration name="TestChap2.testReverseListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testCountOnes - 2019.03.07 at 11h 00m 25s.xml">
+      <configuration name="TestChap2.testCountOnes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChap2_testCountOnes - 2019.03.07 at 11h 00m 27s.xml">
+      <configuration name="TestChap2.testCountOnes" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16700000" />
+    <option name="totallyTimeSpent" value="21967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="30" width="1265" height="687" extended-state="0" />
-    <editor active="true" />
+    <frame x="54" y="23" width="1244" height="777" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24110672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3282572" />
-      <window_info anchor="bottom" id="Tail" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" weight="0.22765599" />
+      <window_info id="Alibaba Cloud Explorer" order="8" weight="0.3296796" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36209813" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48054147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39674798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50083333" side_tool="true" weight="0.5651515" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3272727" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49916667" weight="0.29393938" />
+      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="14" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" sideWeight="0.49916667" weight="0.3121212" />
+      <window_info anchor="bottom" id="CheckStyle" order="16" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="17" weight="0.3287879" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Mybatis datasource" order="9" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新结构" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -432,13 +404,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j2.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j2.tld" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -506,53 +472,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="1071">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="289">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/chap2/TestChap2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        <state relative-caret-position="646">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        <state relative-caret-position="202">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

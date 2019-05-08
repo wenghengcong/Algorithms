@@ -15,7 +15,7 @@ import java.util.Map;
 如果这个数被5整除，打印buzz.
 如果这个数能同时被3和5整除，打印fizz buzz.
 如果这个数既不能被 3 整除也不能被 5 整除，打印数字本身。
-*
+* @author wenghengcong
 * */
 public class FizzBuzz {
 
