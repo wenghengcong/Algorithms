@@ -1,3 +1,4 @@
 # 忽略指定文件夹
 sword-offer/.idea/
 sword-offer/target/
+*.log
