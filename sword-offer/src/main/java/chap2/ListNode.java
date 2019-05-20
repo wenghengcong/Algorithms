@@ -2,6 +2,10 @@ package chap2;
 
 import java.awt.*;
 
+/**
+*
+ * @author wenghengcong
+* */
 public class ListNode {
 
     int val;
@@ -11,7 +15,7 @@ public class ListNode {
         next = null;
     }
 
-    /*
+    /**
     * 实现一
     * 将cur指向当前节点，pre是前一个节点，temp是下一个节点
     * 翻转的过程，就是将cur.next = pre即可
@@ -24,13 +28,19 @@ public class ListNode {
     *
     * */
     public static ListNode reverse(ListNode head) {
-        if (head == null) return null;
-        ListNode pre = head;    //上一个节点
-        ListNode cur = head.next;   //当前节点
-        ListNode temp = null;       //暂时缓存下一个节点
+        if (head == null) {
+            return null;
+        }
+        //上一个节点
+        ListNode pre = head;
+        //当前节点
+        ListNode cur = head.next;
+        //暂时缓存下一个节点
+        ListNode temp = null;
         while (cur != null) {
             temp = cur.next;
-            cur.next = pre;     //进行翻转
+            //进行翻转
+            cur.next = pre;
             //将pre,cur重新置换成下一个
             pre = cur;
             cur = temp;
@@ -40,7 +50,7 @@ public class ListNode {
         return pre;
     }
 
-    /*
+    /**
     * 递归实现
     * 递归到最后，先将最后一个节点转换。
     *
@@ -48,22 +58,28 @@ public class ListNode {
     public static ListNode reverseIteration(ListNode head) {
         // node看作是前一结点，head.getNext()是当前结点，cur是反转后新链表的头结点
         if (head == null || head.next == null) {
-            return head;// 若为空链或者当前结点在尾结点，则直接还回
+            // 若为空链或者当前结点在尾结点，则直接还回
+            return head;
         }
-        ListNode cur = reverseIteration(head.next);//先反转后续节点head.getNext()
-        head.next.next = head;//将当前结点的指针域指向前一结点
-        head.next = null;//前一结点的指针域令为null
-        return cur;//反转后新链表的头结点
+        //先反转后续节点head.getNext()
+        ListNode cur = reverseIteration(head.next);
+        //将当前结点的指针域指向前一结点
+        head.next.next = head;
+        //前一结点的指针域令为null
+        head.next = null;
+        //反转后新链表的头结点
+        return cur;
     }
 
     @Override
     public String toString() {
-        String listString = "";
+        StringBuilder builder = new StringBuilder();
         ListNode head = this;
         while (head != null) {
-            listString = listString + String.valueOf(head.val) + "->";
+            builder.append(head.val);
+            builder.append("->");
             head = head.next;
         }
-        return listString;
+        return builder.toString();
     }
 }

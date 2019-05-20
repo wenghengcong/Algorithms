@@ -1,12 +1,13 @@
 package chap2;
 
-/*
+/**
 * https://www.lintcode.com/problem/count-1-in-binary/description?_from=ladder&&fromId=6
 * 计算在一个 32 位的整数的二进制表示中有多少个 1。
 *
 * 挑战 如果整数有 n 位，并且有 m 位个 1。你能在 O(m) 的时间内解决它吗？
 * 该问题是：Hamming weight，https://en.wikipedia.org/wiki/Hamming_weights
 * 正整数的更多解法：http://javabypatel.blogspot.com/2017/01/count-set-bits-in-number-java.html
+ * @author wenghengcong
 * */
 public class HammingWeight {
 
@@ -49,7 +50,8 @@ public class HammingWeight {
             if( (num&1) == 1) {
                 count ++;
             }
-            num = num >>> 1;    //无符号右移
+            //无符号右移
+            num = num >>> 1;
         }
         /*
         or
