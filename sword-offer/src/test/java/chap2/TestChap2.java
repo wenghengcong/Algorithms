@@ -17,12 +17,19 @@ public class TestChap2 {
     }
 
     @Test
+    public void testFabonacci() {
+        int n = 8;
+        log.info(Fibonacci.fibonacciByArray(n));
+        log.info(Fibonacci.fibonacciByNotRecursion(n));
+        log.info(Fibonacci.fibonacciByRecursion(n));
+    }
+
+    @Test
     public void testReplaceBlank() {
 
         char[] oldString = "LintCode and Jiuzhang".toCharArray();
         //测试的时候，保证输入的字符数组足够大，否则会数组越界
-        int replaceLength = ReplaceBlank.numberOfBlank(oldString)*2 + oldString.length;
-        char[] replaceString = new char[replaceLength];
+        char[] replaceString = new char[100];
         for(int i=0;i<oldString.length;i++)
             replaceString[i] = oldString[i];
         //注意传入的length是test1
@@ -38,8 +45,7 @@ public class TestChap2 {
 
     @Test
     public void testHammingWeight() {
-        int num = 32;
-
+        int num = -12;
         log.info(HammingWeight.countOnes(num) + ":"
                 + HammingWeight.countOnesSecond(num)) ;
     }

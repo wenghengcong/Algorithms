@@ -3,9 +3,8 @@ package chap2;
 import java.awt.*;
 
 /**
-*
  * @author wenghengcong
-* */
+ * */
 public class ListNode {
 
     int val;

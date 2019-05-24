@@ -1,6 +1,6 @@
 package chap2;
 
-/*
+/**
 * 空格替换
 * https://www.lintcode.com/problem/space-replacement/description
 *
@@ -10,20 +10,21 @@ package chap2;
 * */
 public class ReplaceBlank {
 
-    public static int numberOfBlank(char[] string) {
-        if (string.length == 0) return 0;
-        int count = 0;
-        for(int i = 0; i < string.length; i++) {
-            if(string[i] == ' ')
-                count++;
-        }
-        return count;
-    }
-
+    /**
+    * 采用两个指针，依次从最后往前递推
+    * */
     public static int replaceBlank(char[] string, int length) {
-        if (string == null) return 0;
-        int count = numberOfBlank(string);
-        int i = length - 1, j = length + 2 * count - 1;
+        if (string == null) {
+            return 0;
+        }
+        int count = 0;
+        for(int i = 0; i < length; i++) {
+            if(string[i] == ' ') {
+                count++;
+            }
+        }
+        int newLen = length + 2 * count;
+        int i = length - 1, j = newLen - 1;
         while(i < j) {
             if(string[i] != ' ') {
                 string[j] = string[i];
@@ -37,6 +38,6 @@ public class ReplaceBlank {
                 i--;
             }
         }
-        return length + 2 * count;
+        return newLen;
     }
 }
