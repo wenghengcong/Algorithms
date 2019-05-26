@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00c79a6-2cbb-4025-9a6b-976354b79592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap2/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap2/SingleInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap2/FindMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chap2/FindMinTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/dust-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dust-server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/chap2/TestChap2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/chap2/TestChap2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../算法题练习/算法题练习.xcodeproj/project.xcworkspace/xcuserdata/wenghengcong.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../算法题练习/算法题练习.xcodeproj/project.xcworkspace/xcuserdata/wenghengcong.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,49 +38,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/chap2/TestChap2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FindMin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="204">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/SingleInstance.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/chap2/FindMinTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -98,6 +71,7 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -131,6 +105,8 @@
         <option value="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap2/FindMin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/chap2/FindMinTest.java" />
       </list>
     </option>
   </component>
@@ -146,11 +122,11 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="356" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="258" />
+    <option name="y" value="117" />
     <option name="width" value="1271" />
-    <option name="height" value="777" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -162,6 +138,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Course" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,7 +209,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,6 +217,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551934336785" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -248,6 +226,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="chap2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,7 +247,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestChap2.testReverseListNode">
+  <component name="RunManager" selected="JUnit.FindMinTest.findMin">
+    <configuration name="FindMinTest.findMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sword-offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chap2" />
+      <option name="MAIN_CLASS_NAME" value="chap2.FindMinTest" />
+      <option name="METHOD_NAME" value="findMin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestChap2.testFabonacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sword-offer" />
       <extension name="coverage">
@@ -273,22 +275,6 @@
       <option name="PACKAGE_NAME" value="chap2" />
       <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
       <option name="METHOD_NAME" value="testFabonacci" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChap2.testFizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sword-offer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chap2" />
-      <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
-      <option name="METHOD_NAME" value="testFizzBuzz" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -344,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindMinTest.findMin" />
         <item itemvalue="JUnit.TestChap2.testReverseListNode" />
         <item itemvalue="JUnit.TestChap2.testHammingWeight" />
         <item itemvalue="JUnit.TestChap2.testReplaceBlank" />
         <item itemvalue="JUnit.TestChap2.testFabonacci" />
-        <item itemvalue="JUnit.TestChap2.testFizzBuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -422,10 +408,10 @@
     <option name="totallyTimeSpent" value="23614000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="356" y="23" width="1271" height="777" extended-state="0" />
+    <frame x="258" y="117" width="1271" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25020376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25427872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -437,7 +423,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36209813" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3287879" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3287879" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -640,13 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -657,27 +636,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/SingleInstance.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="264">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1135">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/chap2/TestChap2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
+        <state relative-caret-position="66">
           <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/SingleInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -688,10 +681,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FindMin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/chap2/FindMinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
