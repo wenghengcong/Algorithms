@@ -15,7 +15,7 @@ public class ListNode {
     }
 
     /**
-    * 实现一
+    * 翻转链表：实现一
     * 将cur指向当前节点，pre是前一个节点，temp是下一个节点
     * 翻转的过程，就是将cur.next = pre即可
     * 然后，将pre、cur重新置为正确的。
@@ -50,6 +50,7 @@ public class ListNode {
     }
 
     /**
+     * 翻转链表
     * 递归实现
     * 递归到最后，先将最后一个节点转换。
     *

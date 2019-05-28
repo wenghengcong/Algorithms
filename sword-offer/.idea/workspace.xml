@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00c79a6-2cbb-4025-9a6b-976354b79592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap2/FindMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chap2/FindMinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo4/Evaluate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo4/QuickFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo4/QuickUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo4/WeightedQuickUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap2/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chap2/BinarySearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../算法题练习/算法题练习.xcodeproj/project.xcworkspace/xcuserdata/wenghengcong.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../算法题练习/算法题练习.xcodeproj/project.xcworkspace/xcuserdata/wenghengcong.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,28 +43,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FindMin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="234">
+              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FindMin.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/Evaluate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding>
+                <element signature="e#251#259#0" expanded="true" />
+                <element signature="e#301#309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-49">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/QuickFind.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="69" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="69" />
+              <folding>
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/QuickUnion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="70" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="70" />
+              <folding>
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#1406#1407#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/chap2/FindMinTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/WeightedQuickUnion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <element signature="e#1345#1346#0" expanded="true" />
+                <element signature="e#1386#1387#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +120,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -104,9 +154,15 @@
         <option value="$PROJECT_DIR$/src/main/java/chap2/ReplaceBlank.java" />
         <option value="$PROJECT_DIR$/src/test/java/chap2/TestChap2.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap2/FindMin.java" />
         <option value="$PROJECT_DIR$/src/test/java/chap2/FindMinTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/chap2/BinarySearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap2/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algo4/Evaluate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algo4/QuickUnion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algo4/UnionFind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algo4/WeightedQuickUnion.java" />
       </list>
     </option>
   </component>
@@ -122,9 +178,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="258" />
-    <option name="y" value="117" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="169" />
+    <option name="y" value="29" />
     <option name="width" value="1271" />
     <option name="height" value="726" />
   </component>
@@ -163,6 +219,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword-offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword-offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algo4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sword-offer" type="b2602c69:ProjectViewProjectNode" />
@@ -225,7 +289,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -247,7 +311,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindMinTest.findMin">
+  <component name="RunManager" selected="JUnit.BinarySearchTest.binarySearchByRecursion">
+    <configuration name="BinarySearchTest.binarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sword-offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chap2" />
+      <option name="MAIN_CLASS_NAME" value="chap2.BinarySearchTest" />
+      <option name="METHOD_NAME" value="binarySearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest.binarySearchByRecursion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sword-offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chap2" />
+      <option name="MAIN_CLASS_NAME" value="chap2.BinarySearchTest" />
+      <option name="METHOD_NAME" value="binarySearchByRecursion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindMinTest.findMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sword-offer" />
       <extension name="coverage">
@@ -264,22 +360,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestChap2.testFabonacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sword-offer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chap2" />
-      <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
-      <option name="METHOD_NAME" value="testFabonacci" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestChap2.testHammingWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sword-offer" />
       <extension name="coverage">
@@ -291,22 +371,6 @@
       <option name="PACKAGE_NAME" value="chap2" />
       <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
       <option name="METHOD_NAME" value="testHammingWeight" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChap2.testReplaceBlank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sword-offer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chap2" />
-      <option name="MAIN_CLASS_NAME" value="chap2.TestChap2" />
-      <option name="METHOD_NAME" value="testReplaceBlank" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -330,11 +394,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchTest.binarySearchByRecursion" />
+        <item itemvalue="JUnit.BinarySearchTest.binarySearch" />
         <item itemvalue="JUnit.FindMinTest.findMin" />
         <item itemvalue="JUnit.TestChap2.testReverseListNode" />
         <item itemvalue="JUnit.TestChap2.testHammingWeight" />
-        <item itemvalue="JUnit.TestChap2.testReplaceBlank" />
-        <item itemvalue="JUnit.TestChap2.testFabonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -373,45 +437,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestChap2_testFabonacci - 2019.05.24 at 06h 19m 17s.xml">
-      <configuration name="TestChap2.testFabonacci" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testFabonacci - 2019.05.24 at 06h 19m 24s.xml">
-      <configuration name="TestChap2.testFabonacci" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testFabonacci - 2019.05.24 at 06h 19m 33s.xml">
-      <configuration name="TestChap2.testFabonacci" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testReplaceBlank - 2019.05.24 at 07h 11m 41s.xml">
-      <configuration name="TestChap2.testReplaceBlank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testHammingWeight - 2019.05.24 at 07h 36m 06s.xml">
-      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testHammingWeight - 2019.05.24 at 07h 36m 22s.xml">
-      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testHammingWeight - 2019.05.24 at 07h 36m 37s.xml">
-      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChap2_testHammingWeight - 2019.05.24 at 09h 58m 46s.xml">
-      <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestChap2_testHammingWeight - 2019.05.24 at 09h 59m 57s.xml">
       <configuration name="TestChap2.testHammingWeight" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestChap2_testReverseListNode - 2019.05.24 at 10h 42m 34s.xml">
       <configuration name="TestChap2.testReverseListNode" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FindMinTest_findMin - 2019.05.26 at 20h 37m 28s.xml">
+      <configuration name="FindMinTest.findMin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindMinTest_findMin - 2019.05.26 at 20h 37m 36s.xml">
+      <configuration name="FindMinTest.findMin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest_binarySearch - 2019.05.26 at 21h 52m 27s.xml">
+      <configuration name="BinarySearchTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest_binarySearch - 2019.05.26 at 21h 53m 48s.xml">
+      <configuration name="BinarySearchTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest_binarySearch - 2019.05.26 at 21h 53m 59s.xml">
+      <configuration name="BinarySearchTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest_binarySearch - 2019.05.26 at 21h 54m 04s.xml">
+      <configuration name="BinarySearchTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest_binarySearchByRecursion - 2019.05.26 at 21h 54m 53s.xml">
+      <configuration name="BinarySearchTest.binarySearchByRecursion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest_binarySearchByRecursion - 2019.05.26 at 21h 55m 03s.xml">
+      <configuration name="BinarySearchTest.binarySearchByRecursion" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="23614000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="117" width="1271" height="726" extended-state="0" />
+    <frame x="169" y="29" width="1271" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25427872" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22901386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -421,9 +485,9 @@
       <window_info id="Learn" order="7" weight="0.22765599" />
       <window_info id="Alibaba Cloud Explorer" order="8" weight="0.3296796" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36209813" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3287879" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3579639" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29392448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -636,41 +700,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1135">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/chap2/TestChap2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap2/SingleInstance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/chap2/FindMinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -681,17 +721,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FindMin.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/chap2/TestChap2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="170">
+          <caret line="10" column="17" selection-start-line="10" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/chap2/FindMinTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="306">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/HammingWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/chap2/BinarySearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/FindMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/Evaluate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#251#259#0" expanded="true" />
+            <element signature="e#301#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/QuickFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="69" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="69" />
+          <folding>
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/QuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="70" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="70" />
+          <folding>
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/WeightedQuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
