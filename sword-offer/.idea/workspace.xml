@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00c79a6-2cbb-4025-9a6b-976354b79592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo4/Evaluate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo4/QuickFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo4/QuickUnion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo4/WeightedQuickUnion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap2/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chap2/BinarySearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法题练习/算法题练习.xcodeproj/project.xcworkspace/xcuserdata/wenghengcong.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../算法题练习/算法题练习.xcodeproj/project.xcworkspace/xcuserdata/wenghengcong.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algo4/Evaluate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo4/chap1/Evaluate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algo4/QuickFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo4/chap1/QuickFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algo4/QuickUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo4/chap1/QuickUnion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algo4/WeightedQuickUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo4/chap1/WeightedQuickUnion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,10 +48,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/Evaluate.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/chap1/Evaluate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="e#251#259#0" expanded="true" />
                 <element signature="e#301#309#0" expanded="true" />
@@ -74,10 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/QuickFind.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/chap1/QuickFind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="69" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="69" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#521#522#0" expanded="true" />
                 <element signature="e#548#549#0" expanded="true" />
@@ -89,10 +85,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/QuickUnion.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/chap1/QuickUnion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="70" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="70" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#1365#1366#0" expanded="true" />
                 <element signature="e#1406#1407#0" expanded="true" />
@@ -102,10 +98,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/WeightedQuickUnion.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algo4/chap1/WeightedQuickUnion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="187">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="e#1345#1346#0" expanded="true" />
                 <element signature="e#1386#1387#0" expanded="true" />
@@ -162,7 +158,9 @@
         <option value="$PROJECT_DIR$/src/main/java/chap2/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/algo4/QuickUnion.java" />
         <option value="$PROJECT_DIR$/src/main/java/algo4/UnionFind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algo4/chap1/chap2/Evaluate.java" />
         <option value="$PROJECT_DIR$/src/main/java/algo4/WeightedQuickUnion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algo4/chap1/WeightedQuickUnion.java" />
       </list>
     </option>
   </component>
@@ -179,8 +177,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="169" />
-    <option name="y" value="29" />
+    <option name="x" value="63" />
+    <option name="y" value="47" />
     <option name="width" value="1271" />
     <option name="height" value="726" />
   </component>
@@ -227,6 +225,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="algo4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword-offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword-offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algo4" type="462c0819:PsiDirectoryNode" />
+              <item name="chap1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sword-offer" type="b2602c69:ProjectViewProjectNode" />
@@ -472,10 +479,10 @@
     <option name="totallyTimeSpent" value="23614000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="169" y="29" width="1271" height="726" extended-state="0" />
+    <frame x="193" y="30" width="1271" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22901386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27139366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -766,17 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/Evaluate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#251#259#0" expanded="true" />
-            <element signature="e#301#309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-49">
@@ -784,10 +780,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/QuickFind.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/chap1/Evaluate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="69" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="69" />
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#251#259#0" expanded="true" />
+            <element signature="e#301#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/chap1/QuickFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="e#521#522#0" expanded="true" />
             <element signature="e#548#549#0" expanded="true" />
@@ -797,10 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/QuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/chap1/QuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="70" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="70" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="e#1365#1366#0" expanded="true" />
             <element signature="e#1406#1407#0" expanded="true" />
@@ -808,10 +815,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/WeightedQuickUnion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algo4/chap1/WeightedQuickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="e#1345#1346#0" expanded="true" />
             <element signature="e#1386#1387#0" expanded="true" />

@@ -1,12 +1,13 @@
-package algo4;
+package algo4.chap1;
 
 /**
  * @author wenghengcong
- * @className: WeightedQuickUnion
- * @desc: 加权Quick Union算法，p145
- * @date 2019-05-2817:33
+ * @className: QuickUnion
+ * @desc: 并查集，p141，针对Quick Find算法的优化
+ * 该算法，非常类似树的结构，每个触点指向另外一个父触点，只有根触点指向自己
+ * @date 2019-05-2811:49
  */
-public class WeightedQuickUnion {
+public class QuickUnion {
 
     /**
      * 分量id，以触点作为索引
@@ -16,27 +17,17 @@ public class WeightedQuickUnion {
     private int[] id;
 
     /**
-     * 权重：各个根节点说对应的分量的大小
-     * */
-    private int[] sz;
-
-    /**
      * 连通分量数量
      */
     private int count;
     /**
      * 构造方法：一开始有N个分量，每个触点都构成了触点i
-     * sz初始为权重1，即指向自己
      * */
-    public WeightedQuickUnion(int N) {
+    public QuickUnion(int N) {
         count = N;
         id = new int[N];
         for (int i = 0; i < N; i++) {
             id[i] = i;
-        }
-        sz = new int[N];
-        for (int i = 0; i < N; i++) {
-            sz[i] = 1;
         }
     }
 
@@ -66,14 +57,6 @@ public class WeightedQuickUnion {
         if (pRoot == qRoot) {
             return;
         }
-        // 将小树的根节点连接到大树的根节点
-        if (sz[pRoot] < sz[qRoot]) {
-            id[pRoot] = qRoot;
-            sz[qRoot] += sz[pRoot];
-        } else {
-            id[qRoot] = pRoot;
-            sz[pRoot] += sz[qRoot];
-        }
         id[pRoot] = qRoot;
         // 连通分量减少
         count--;
@@ -85,4 +68,5 @@ public class WeightedQuickUnion {
     public boolean connected(int p, int q){
         return find(p) == find(q);
     }
+
 }

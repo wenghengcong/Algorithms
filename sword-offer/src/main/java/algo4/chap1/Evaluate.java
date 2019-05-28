@@ -1,4 +1,4 @@
-package algo4;
+package algo4.chap1;
 
 import java.util.Stack;
 
