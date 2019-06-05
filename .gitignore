@@ -2,3 +2,5 @@
 sword-offer/.idea/
 sword-offer/target/
 *.log
+/sword-offer/.idea/workspace.xml
+/算法题练习/算法题练习.xcodeproj/project.xcworkspace/xcuserdata/wenghengcong.xcuserdatad/UserInterfaceState.xcuserstate
