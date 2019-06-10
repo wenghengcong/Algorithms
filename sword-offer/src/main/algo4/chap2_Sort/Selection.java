@@ -21,6 +21,9 @@ package algo4.chap2_Sort;
  * 4. 空间为N
  * 5. 稳定排序
 *
+* 适用场景：
+ *
+ *
 * */
 public class Selection extends SortTemplate {
 
