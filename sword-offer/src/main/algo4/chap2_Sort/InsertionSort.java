@@ -2,7 +2,7 @@ package algo4.chap2_Sort;
 
 /**
  * @author wenghengcong
- * @className: Insertion
+ * @className: InsertionSort
  * @desc:
  * @date 2019-06-1022:28
  */
@@ -14,6 +14,7 @@ package algo4.chap2_Sort;
     * 2. 在计算机中，为了要给插入的元素腾出空间，需要将其余所有的元素在插入之前都向右移动一位
     *
  * 性能分析：
+    * 一般性：插入排序 > 选择排序
     * 平均情况：~ N²/4 次比较和交换
     * 最坏情况：~ N²/2 次比较和交换
     * 最好情况：N-1 次比较和0次交换
@@ -23,7 +24,7 @@ package algo4.chap2_Sort;
     * 2. 一个有序的数组接一个有序的小数组
     * 3. 数组中只有几个元素的位置不正确
  * */
-public class Insertion extends SortTemplate {
+public class InsertionSort extends SortTemplate {
 
 
     public static void sort(Comparable[] a) {

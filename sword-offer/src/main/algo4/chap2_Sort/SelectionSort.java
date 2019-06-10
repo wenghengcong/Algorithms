@@ -2,7 +2,7 @@ package algo4.chap2_Sort;
 
 /**
  * @author wenghengcong
- * @className: Selection
+ * @className: SelectionSort
  * @desc:
  * @date 2019-06-1021:58
  */
@@ -25,7 +25,7 @@ package algo4.chap2_Sort;
  *
  *
 * */
-public class Selection extends SortTemplate {
+public class SelectionSort extends SortTemplate {
 
     public static void sort(Comparable[] a) {
         int N = a.length;
