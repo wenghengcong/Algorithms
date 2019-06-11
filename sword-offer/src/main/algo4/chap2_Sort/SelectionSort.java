@@ -22,7 +22,7 @@ package algo4.chap2_Sort;
  * 5. 稳定排序
 *
 * 适用场景：
- *
+ * 无须额外的内存空间
  *
 * */
 public class SelectionSort extends SortTemplate {

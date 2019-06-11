@@ -12,6 +12,7 @@ public class InsertionSortTest {
 
     @Test
     public void sort() {
+        // 测试6ms
         // 排序后：A E E L M O P R S T X
         String[] a = {"S", "O", "R", "T", "E", "X", "A", "M", "P", "L", "E" };
         System.out.println("排序前");
