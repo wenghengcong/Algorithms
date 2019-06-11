@@ -19,5 +19,5 @@ package algo4.chap2_Sort;
 *
 *
 * */
-public class MergeTopSort {
+public class MergeTopSort extends SortTemplate {
 }
