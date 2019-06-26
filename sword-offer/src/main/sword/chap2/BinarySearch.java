@@ -24,6 +24,9 @@ public class BinarySearch {
         return -1;
     }
 
+    /**
+    * 递归
+    * */
     public static int binarySearchByRecursion(int key, int[] nums, int lower, int high) {
         int mid = lower + (high - lower) / 2;
         if (key < nums[mid]) {
