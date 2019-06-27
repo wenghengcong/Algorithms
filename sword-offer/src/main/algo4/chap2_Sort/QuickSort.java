@@ -56,7 +56,8 @@ public class QuickSort extends SortTemplate {
             while (less(a[++i], v)) if (i == hi) break;
             // 从右开始扫描，递减j，一直递减到lo停止，如果未停止，则在右边找到了比v小的元素
             while (less(v, a[--j])) if (j == lo) break;
-            // 如果递减后，i>=j，跳出循环
+            // 如果递减后，i>=j，跳出循环。
+            // 比如，找到一个i比v大的元素，但是，没有找到j比v小的元素，i=j，跳出，并进行交换
             if (i >= j) break;;
             // 否则，找到了i位置比v小的元素，找到了j位置比v大的元素，进行交换
             exch(a, i, j);
