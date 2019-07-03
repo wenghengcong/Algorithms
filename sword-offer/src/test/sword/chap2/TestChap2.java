@@ -1,9 +1,13 @@
 package chap2;
 
+import foundation.ListNode;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
-import sword.chap2.*;
+import sword.chap2.Fibonacci;
+import sword.chap2.FizzBuzz;
+import sword.chap2.HammingWeight;
+import sword.chap2.ReplaceBlank;
 
 import java.util.List;
 

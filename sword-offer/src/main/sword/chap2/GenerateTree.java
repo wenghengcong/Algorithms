@@ -1,5 +1,7 @@
 package sword.chap2;
 
+import foundation.TreeNode;
+
 /**
  * @author wenghengcong
  * @className: GenerateTree

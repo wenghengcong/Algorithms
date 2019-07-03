@@ -1,6 +1,6 @@
 package sword.chap3;
 
-import sword.chap2.TreeNode;
+import foundation.TreeNode;
 
 /**
  * @author wenghengcong
