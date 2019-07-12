@@ -197,6 +197,13 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> {
         root = delete(root ,key);
     }
 
+    /**
+     * 删除结点
+     * 删除结点最主要的思想：删除后找到顶替该节点的下一个节点
+     * 1. 如果即将删除的节点无左子树，那么返回其右子树；
+     * 2. 如果即将删除的节点无右子树，那么返回其左子树；
+     * 3. 否则返回其右子树中的最小节点
+     * */
     private Node delete(Node node, Key key) {
         if (node == null) {
             return null;

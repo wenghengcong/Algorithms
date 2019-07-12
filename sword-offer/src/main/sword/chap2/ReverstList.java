@@ -45,6 +45,27 @@ public class ReverstList {
     }
 
     /**
+     * 记住这种解法：头插法，在头结点前创建一个空结点
+     * */
+    public static ListNode reverse2(ListNode head) {
+        //上一个节点
+        ListNode pre = null;
+        //当前节点
+        ListNode cur = head;
+        //暂时缓存下一个节点
+        ListNode temp = null;
+        while (cur != null) {
+            temp = cur.next;
+            //进行翻转
+            cur.next = pre;
+            //将pre,cur重新置换成下一个
+            pre = cur;
+            cur = temp;
+        }
+        return pre;
+    }
+
+    /**
      * 翻转链表
      * 递归实现
      * 递归到最后，先将最后一个节点转换。
