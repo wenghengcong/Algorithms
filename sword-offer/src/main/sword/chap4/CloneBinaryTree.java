@@ -13,7 +13,7 @@ import foundation.TreeNodeInt;
  * 给定一个二叉树，返回一个他的 克隆品 。
  * 题目：https://www.lintcode.com/problem/clone-binary-tree/description?_from=ladder&&fromId=6
  * */
-public class CloneTree {
+public class CloneBinaryTree {
 
     public static TreeNodeInt cloneTree(TreeNodeInt root) {
         if (root == null) {
